@@ -52,7 +52,7 @@ Verify status:
 
 📸 **Screenshot:** Receiving Port Enabled
 
-![Enable Listen Port](Receiving_Enabled.png)
+![Enable Listen Port](/Screenshots/Receiving_Enabled.png)
 
 Splunk Server must listen for data from forwarders.
 
@@ -87,7 +87,7 @@ sudo /opt/splunkforwarder/bin/splunk enable boot-start
 
 📸 **Screenshot:** Forwarder Connected (Active)
 
-![Forwarder Active](Forwarder-Active.png)
+![Forwarder Active](/Screenshots/Forwarder-Active.png)
 
 Since this is a single-host lab, use `127.0.0.1`.
 
@@ -124,7 +124,7 @@ Suricata log directory:
 
 📸 **Screenshot:** Suricata fast.log Alerts
 
-![Suricata Logs](Suricata_Logs.png)
+![Suricata Logs](/Screenshots/Suricata_Logs.png)
 
 Confirm Suricata is generating logs:
 
@@ -158,7 +158,7 @@ Create a dedicated index for Suricata logs.
 
 📸 **Screenshot:** inputs.conf Configuration
 
-![inputs.conf](Input_conf.png)
+![inputs.conf](/Screenshots/Input_conf.png)
 
 Edit the forwarder inputs configuration:
 
@@ -208,7 +208,7 @@ sudo /opt/splunkforwarder/bin/splunk list monitor
 
 📸 **Screenshot:** Suricata Alerts in Splunk Search
 
-![Suricata Alerts](suricatalogs.png)
+![Suricata Alerts](/Screenshots/suricatalogs.png)
 
 Open Splunk Web and run the following searches:
 
@@ -236,7 +236,7 @@ Generate test traffic to trigger Suricata alerts:
 
 📸 **Screenshot:** Suricata Alerts in Splunk Search
 
-![Suricata Alerts](alerts.png)
+![Suricata Alerts](/Screenshots/alerts.png)
 
 ```bash
 nmap -sS localhost
