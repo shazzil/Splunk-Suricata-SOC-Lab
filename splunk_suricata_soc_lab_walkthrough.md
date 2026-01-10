@@ -30,7 +30,7 @@ SOC Analyst (Detection & Investigation)
 
 📸 **Screenshot:** Splunk Web Login Page
 
-![Splunk Web Login](.png)
+![Splunk Web Login](splunk_login.png)
 
 - Install Splunk Enterprise on the system
 - Start Splunk service
@@ -87,7 +87,7 @@ sudo /opt/splunkforwarder/bin/splunk enable boot-start
 
 📸 **Screenshot:** Forwarder Connected (Active)
 
-![Forwarder Active](screenshots/03-forwarder-active.png)
+![Forwarder Active](Forwarder-Active.png)
 
 Since this is a single-host lab, use `127.0.0.1`.
 
@@ -124,7 +124,7 @@ Suricata log directory:
 
 📸 **Screenshot:** Suricata fast.log Alerts
 
-![Suricata Logs](screenshots/04-suricata-fast-log.png)
+![Suricata Logs](Suricata_Logs.png)
 
 Confirm Suricata is generating logs:
 
@@ -158,7 +158,7 @@ Create a dedicated index for Suricata logs.
 
 📸 **Screenshot:** inputs.conf Configuration
 
-![inputs.conf](screenshots/05-inputs-conf.png)
+![inputs.conf](Input_conf.png)
 
 Edit the forwarder inputs configuration:
 
@@ -208,7 +208,7 @@ sudo /opt/splunkforwarder/bin/splunk list monitor
 
 📸 **Screenshot:** Suricata Alerts in Splunk Search
 
-![Suricata Alerts](screenshots/07-suricata-alerts.png)
+![Suricata Alerts](alerts.png)
 
 Open Splunk Web and run the following searches:
 
