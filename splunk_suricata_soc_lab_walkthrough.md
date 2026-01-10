@@ -30,7 +30,7 @@ SOC Analyst (Detection & Investigation)
 
 📸 **Screenshot:** Splunk Web Login Page
 
-![Splunk Web Login](splunk_login.png)
+![Splunk Web Login](dashboard.png)
 
 - Install Splunk Enterprise on the system
 - Start Splunk service
@@ -208,7 +208,7 @@ sudo /opt/splunkforwarder/bin/splunk list monitor
 
 📸 **Screenshot:** Suricata Alerts in Splunk Search
 
-![Suricata Alerts](alerts.png)
+![Suricata Alerts](suricatalogs.png)
 
 Open Splunk Web and run the following searches:
 
@@ -233,6 +233,10 @@ index=suricata sourcetype=suricata:fast
 ## 🔹 Step 11: Validation Testing
 
 Generate test traffic to trigger Suricata alerts:
+
+📸 **Screenshot:** Suricata Alerts in Splunk Search
+
+![Suricata Alerts](alerts.png)
 
 ```bash
 nmap -sS localhost
