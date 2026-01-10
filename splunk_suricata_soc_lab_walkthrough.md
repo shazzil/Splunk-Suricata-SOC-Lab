@@ -30,7 +30,7 @@ SOC Analyst (Detection & Investigation)
 
 📸 **Screenshot:** Splunk Web Login Page
 
-![Splunk Web Login](screenshots/01-splunk-web-login.png)
+![Splunk Web Login](.png)
 
 - Install Splunk Enterprise on the system
 - Start Splunk service
@@ -52,7 +52,7 @@ Verify status:
 
 📸 **Screenshot:** Receiving Port Enabled
 
-![Enable Listen Port](screenshots/02-enable-listen-9997.png)
+![Enable Listen Port](Receiving Port Enabled.png)
 
 Splunk Server must listen for data from forwarders.
 
