@@ -52,7 +52,7 @@ Verify status:
 
 📸 **Screenshot:** Receiving Port Enabled
 
-![Enable Listen Port](Receiving Port Enabled.png)
+![Enable Listen Port](Receiving_Enabled.png)
 
 Splunk Server must listen for data from forwarders.
 
