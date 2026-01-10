@@ -30,7 +30,7 @@ SOC Analyst (Detection & Investigation)
 
 📸 **Screenshot:** Splunk Web Login Page
 
-![Splunk Web Login](dashboard.png)
+![Splunk Web Login](/Screenshots/dashboard.png)
 
 - Install Splunk Enterprise on the system
 - Start Splunk service
