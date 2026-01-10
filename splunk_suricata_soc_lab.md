@@ -242,7 +242,7 @@ Generate test traffic to trigger Suricata alerts:
 ![Suricata Alerts](/Screenshots/alerts.png)
 
 ```bash
-nmap -sS localhost
+nmap -sS <ip_address>
 ```
 
 Check Splunk:
