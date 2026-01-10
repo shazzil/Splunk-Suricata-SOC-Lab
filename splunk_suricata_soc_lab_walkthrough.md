@@ -87,7 +87,7 @@ sudo /opt/splunkforwarder/bin/splunk enable boot-start
 
 📸 **Screenshot:** Forwarder Connected (Active)
 
-![Forwarder Active](/Screenshots/Forwarder-Active.png)
+![Forwarder Active](/Screenshots/Forwarder_Active.png)
 
 Since this is a single-host lab, use `127.0.0.1`.
 
@@ -147,6 +147,11 @@ tail -f /var/log/suricata/fast.log
 ## 🔹 Step 7: Create Splunk Index
 
 Create a dedicated index for Suricata logs.
+
+![Splunk Web Login](/Screenshots/index_create.png)
+
+![Splunk Web Login](/Screenshots/index.png)
+
 
 **Splunk Web → Settings → Indexes → New Index**
 
