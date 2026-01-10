@@ -148,8 +148,6 @@ tail -f /var/log/suricata/fast.log
 
 Create a dedicated index for Suricata logs.
 
-![Splunk Web Login](/Screenshots/index_create.png)
-
 ![Splunk Web Login](/Screenshots/index.png)
 
 
