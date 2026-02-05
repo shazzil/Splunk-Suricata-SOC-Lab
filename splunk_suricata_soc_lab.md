@@ -233,7 +233,7 @@ index=suricata sourcetype=suricata:fast
 
 ---
 
-## 🔹 Step 11: Validation Testingg
+## 🔹 Step 11: Validation Testing
 
 Generate test traffic to trigger Suricata alerts:
 
